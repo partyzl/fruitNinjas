@@ -1,0 +1,28 @@
+{
+  "name": "fruitninjas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partyzl/fruitNinjas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/partyzl/fruitNinjas/issues"
+  },
+  "homepage": "https://github.com/partyzl/fruitNinjas#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
