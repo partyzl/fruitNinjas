@@ -2,9 +2,9 @@
 
 ## How to get up and running in your local machine
 
-Clone this repo down to your local machine.  
-Set your desired local port in the index.js file.  
-In your terminal navigate to the correct file and run the following line.
+1. Clone this repo down to your local machine.  
+2. Set your desired local port in the index.js file.  
+3. In your terminal navigate to the correct file and run the following line.
 
 ```
 node index.js
