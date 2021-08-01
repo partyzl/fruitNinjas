@@ -1,6 +1,6 @@
 # Fruit Ninjas
 
-##How to get up and running in your local machine
+## How to get up and running in your local machine
 
 Clone this repo down to your local machine.  
 Set your desired local port in the index.js file.  
