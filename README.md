@@ -1,3 +1,4 @@
+Test Coverage: To be updated...
 # Fruit Ninjas
 
 ## How to get up and running in your local machine
@@ -14,3 +15,4 @@ Open a browser and navigate to the correct location with
 ```
 https://localhost<yourChosenHost>
 ```
+More to add still...
