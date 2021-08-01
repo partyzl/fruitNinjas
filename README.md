@@ -17,6 +17,6 @@ node index.js
 
 Open a browser and navigate to the correct location with
 ```
-https://localhost<yourChosenHost>
+https://localhost:<yourChosenHost>
 ```
 More to add still...
