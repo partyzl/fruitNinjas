@@ -1,4 +1,4 @@
-Test Coverage: To be updated...
+Test Coverage: 71.43% funcs
 # Fruit Ninjas
 
 ## How to get up and running in your local machine
