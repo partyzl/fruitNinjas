@@ -16,6 +16,10 @@ router.get('/', (req,res) =>{
     res.send('Hello and welcome to Fruit Ninjas!')
 })
 
+router.get('/home', (req, res) =>{
+    res.send('Just checking')
+})
+
 router.get('/guess/:userguess', (req, res)=>{
     const guess = req.params.userguess;
     if(isCorrect(guess, answer)){
