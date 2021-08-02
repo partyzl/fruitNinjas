@@ -13,14 +13,12 @@ let isClueRequested = false;
 let guessCount = 0;
 
 router.get('/', (req,res) =>{
+    res.setHeader("Access-Control-Allow-Origin", "http://localhost:8000")
     res.send('Hello and welcome to Fruit Ninjas!')
 })
 
-router.get('/home', (req, res) =>{
-    res.send('Just checking')
-})
-
 router.get('/guess/:userguess', (req, res)=>{
+    res.setHeader("Access-Control-Allow-Origin", "http://localhost:8000")
     const guess = req.params.userguess;
     if(isCorrect(guess, answer)){
         res.send(`Correct! Your score is ${isClueRequested ? guessCount *2 : guessCount}. You have won a box of ${guess}s`)
